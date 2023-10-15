@@ -1,1 +1,29 @@
 
+body{
+    margin: auto;
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    color: rgb(185, 242, 244);
+    background-color: rgb(8, 8, 8);
+}
+
+.todo-container{
+    display: flex;
+    flex-direction: column;
+    color: rgb(147, 201, 0);
+}
+
+.item-container{
+    display: flex;
+    color: rgb(178, 229, 231);
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+    width:fit-content;
+    color: black;
+    height: fit-content;
+}
